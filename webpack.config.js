@@ -32,6 +32,11 @@ module.exports = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
   },
+  optimization: {
+      splitChunks: {
+          chunks: 'all'
+      }
+  },
   plugins: [
     // Loads an html file to view in the browser
     new HtmlWebpackPlugin({
