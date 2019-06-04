@@ -1,0 +1,14 @@
+$bg: #fff;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $bg;
+}
+
+.container {
+    padding: 5px;
+}
